@@ -1,0 +1,39 @@
+.lead {
+    display: grid;
+    margin: auto;
+    margin-top: 56px;
+    justify-content: center;
+    max-width: 984px;
+    grid-template-columns: 984px;
+    grid-template-rows: min-content 32px min-content 64px min-content 8px min-content;
+    grid-template-areas:
+        "lead__title"
+        "."
+        "lead__subtitle"
+        "."
+        "lead__image"
+        "."
+        "lead__caption";
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin-top: 48px;
+        max-width: calc((928/1024)*100%);
+        grid-template-columns: 100%;
+        grid-template-rows: min-content 32px min-content 56px min-content 8px min-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+        }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        grid-template-columns: 320px;
+        grid-template-rows: min-content 16px min-content 40px 200px 8px min-content;
+    }
+}

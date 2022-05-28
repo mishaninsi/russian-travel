@@ -1,0 +1,7 @@
+.header__logo {
+    grid-area: logo;
+    background-image: url(../../../images/logo/__logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
