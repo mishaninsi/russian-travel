@@ -27,12 +27,21 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .photo-grid {
+        margin-top: 64px;
+        max-width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: min-content;
+        gap: 12px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .photo-grid {
         margin-top: 64px;
         max-width: 288px;
         grid-template-columns: 288px;
         grid-template-rows: 216px;
-        gap: 12px;
-    }
+        }
 }
