@@ -22,11 +22,11 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .places {
         margin-top: 64px;
-        max-width: 320px;
-        grid-template-columns: 320px;
+        max-width: 100%;
+        grid-template-columns: 100%;
         row-gap: 50px;
     }
 }

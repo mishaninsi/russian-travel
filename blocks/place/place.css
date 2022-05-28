@@ -24,12 +24,17 @@
         column-gap: 28px;
     }
 }
+@media screen and (max-width: 500px) {
+    .place {
+        column-gap: 10px;
+    }
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .place {
         display: grid;
         margin: 0;
-        grid-template-columns: 320px;
+        grid-template-columns: 100%;
         grid-template-rows: min-content;
         grid-template-areas:
             "place__title"
