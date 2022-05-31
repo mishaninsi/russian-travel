@@ -1,4 +1,6 @@
-.place__website-url-heading {
+.website__url-heading {
+    padding: 0;
+    margin-top: 0;
     margin-bottom: 12px;
     font-family: Inter;
     font-size: 12px;

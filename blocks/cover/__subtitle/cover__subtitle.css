@@ -10,7 +10,7 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-    z-index: 2;
+    z-index: 4;
 }
 
 @media screen and (max-width: 1024px) {
